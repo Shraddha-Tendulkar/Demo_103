@@ -17,7 +17,7 @@ public class Launch_driver {
 		driver.navigate().to("http://demo.guru99.com/test/newtours/register.php");
 		
 		WebElement firstname=driver.findElement(By.name("firstName"));
-		firstname.sendKeys("Abc");
+		firstname.sendKeys("Str");
 		
 		WebElement lastname=driver.findElement(By.name("lastName"));
 		lastname.sendKeys("wyz");
