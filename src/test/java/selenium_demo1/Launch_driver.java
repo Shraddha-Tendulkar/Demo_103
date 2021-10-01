@@ -20,7 +20,7 @@ public class Launch_driver {
 		firstname.sendKeys("Str");
 		
 		WebElement lastname=driver.findElement(By.name("lastName"));
-		lastname.sendKeys("wyz");
+		lastname.sendKeys("xyz");
 		
 		WebElement phone=driver.findElement(By.xpath("//*[@name='phone']"));
 		phone.sendKeys("1231424243");
