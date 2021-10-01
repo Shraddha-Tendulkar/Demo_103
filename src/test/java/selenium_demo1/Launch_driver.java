@@ -34,7 +34,7 @@ public class Launch_driver {
 		WebElement submit= driver.findElement(By.name("submit"));
 		submit.click();
 		
-		driver.quit();
+		driver.close();
 		
 		
 		
